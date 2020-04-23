@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
+import './App.css';
+
 
 
 class BasicInfoForm extends React.Component {
@@ -64,6 +64,7 @@ class BasicInfoForm extends React.Component {
         <input
         type='text'
         name='email'
+        size="50"
         onChange={this.formValidation}
       />
        <p></p>
