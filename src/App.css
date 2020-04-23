@@ -22,3 +22,13 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+body {
+  background-color: lightblue;
+  color: white;
+  padding: 40px;
+  font-family: verdana;
+  text-align: center;
+  font-size: 20px;
+}
